@@ -1,5 +1,4 @@
 # Flask - Kubernetes Admission Control
-
 Hello, in this project, I made a simple development with Python Flask using Mutate and Validate Webhooks in Kubernetes Admission Control. My aim of developing the project is to provide convenience and basis for those who want to develop a project by using this feature in the future.
 
 **Validate**
@@ -9,7 +8,6 @@ In this section, it checks whether there is ***latest*** at the end of the tag b
 In this section, it adds the word ***dummy-prefix*** to the beginning of the name information in the Deployment to be created.
 
 ## Project Folders
-
 In order to create an order in the project, folders have been made. Details are as follows.
 
  - **Certs**
@@ -24,7 +22,7 @@ In order to create an order in the project, folders have been made. Details are 
 ## Project Integration
 
 ### Image Creation
-Projenin image hali aşağıdaki gibi Docker hub üzerinde tutulmaktadır. Dilerseniz aşağıdaki yolu kullanarak çalıştırabilir yada Proje > iac > Docker> Dockerfile'i değiştirerek kendi image'ını oluşturabilirsiniz.
+The image version of the project is kept on Docker hub as follows. If you wish, you can run it using the following path or you can create your own image by changing Project > iac > Docker > Dockerfile.
 
 **Dockerhub**
 
@@ -68,11 +66,7 @@ kubectl apply -f mutating.yaml
 ![enter image description here](https://user-images.githubusercontent.com/26081033/201529292-5fa13ebb-8799-4a7e-82f5-3e46bcf1cfb6.png)
 
 ## Contributing
-
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-  
-
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
